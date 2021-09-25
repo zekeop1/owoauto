@@ -28,7 +28,7 @@ bot = commands.Bot(command_prefix=prefix,
 
 @bot.event
 async def on_ready():
-    activity = discord.Game(name="^_^ Testing owo auto Ban Bypass", type=4)
+    activity = discord.Game(name="fullu owo ban bypass made by Ari.#6435", type=4)
     await bot.change_presence(status=discord.Status.idle, activity=activity)
     print(f'''{Fore.RED}
 ██╗░░██╗███████╗██████╗░██╗
