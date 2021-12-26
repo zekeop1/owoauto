@@ -12,12 +12,12 @@ prefix = "!!"
 
 #use the .env feature to hide your token
 
-token = os.getenv("TOKEN")
+token = os.getenv("OTI0NzAyMTI3MTMyMTM1NTE1.YciZ9w.TP4aQS-xycSrB9mWyQ2hSc5OrTY")
 
 #---------------#
 
 bot = commands.Bot(command_prefix=prefix,
-                   help_command=None,
+                   help_command=?IwI,
                    case_insensitive=True,
                    self_bot=True)
 
